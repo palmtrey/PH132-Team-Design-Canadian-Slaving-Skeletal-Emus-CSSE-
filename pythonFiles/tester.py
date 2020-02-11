@@ -1,3 +1,4 @@
-import pandas as pd
-s = pd.Series()
-print(s)
+x = ["apple", "banana", "cherry"]
+print(type(x))
+
+
