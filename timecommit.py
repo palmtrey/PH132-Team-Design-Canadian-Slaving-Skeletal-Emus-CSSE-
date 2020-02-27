@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 from datetime import date as dt
 
-name = raw_input("Enter your name\n>")
+name = raw_input("Enter your name\n > ")
 today = dt.today()
 d2 = today.strftime("%B %d, %Y")
 
