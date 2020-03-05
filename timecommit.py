@@ -1,3 +1,7 @@
+# Title: timecommit.py
+# Purpose: To automate a git push to origin in the current directory. With a commit message containing the user's name and the current time and date.
+# Developer: Cameron Palmer
+
 import time
 import os
 from datetime import datetime
