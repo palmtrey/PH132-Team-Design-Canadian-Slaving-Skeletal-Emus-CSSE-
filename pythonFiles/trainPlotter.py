@@ -1,11 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_excel(r'traindata.xlsx', index_col = "12 V")
+vavgt12 = pd.read_excel(r"traindataforpython.xlsx", usecols = "A")
+vvcorrected12 = pd.read_excel(r"traindataforpython.xlsx", usecols = "B")
 
-print(data)
+print(vavgt12, vvcorrected12)
 
-times = data.loc[data['12 V']]
+#times = data.loc[data['12 V']]
 
-plt.plot([1, 2, 3], [1, 2, 3])
+plt.plot(vavgt12, vvcorrected12)
 plt.show()
